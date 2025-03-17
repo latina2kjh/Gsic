@@ -1,0 +1,180 @@
+/* 共通設定 */
+/* font_family */
+body {
+    font-family : sans-serif;
+}
+/* globalナビはメニューの色合いと合わせる */
+.bg-dark {
+    background-color: #808080 !important;
+    padding: 0;
+}
+.navbar-dark .navbar-brand {
+    font-size : 1rem;
+    padding-left: 0.5rem;
+}
+.navbar-dark .navbar-nav .nav-link {
+    font-size : 0.8rem;
+}
+/* 横型メニューのCSS */
+/* 横型メニュー color */
+.plugin-menus .nav-tabs li.nav-item > a {
+    color : #808080;
+}
+.plugin-menus .nav-tabs li.nav-item > a.active {
+    border-color : transparent;
+}
+/* 横型メニュー background */
+.plugin-menus .nav-tabs li.nav-item > a {
+    background : #808080;
+}
+/* 横型メニュー border */
+.plugin-menus .nav-tabs li.nav-item {
+    border-top : solid 2px #808080;
+    border-bottom : solid 2px #808080;
+    border-left : solid 2px #808080;
+}
+.plugin-menus .nav-tabs li.nav-item:last-child {
+    border-right : solid 2px #808080;
+}
+.plugin-menus .nav-tabs .nav-link {
+    border-radius : 0;
+}
+/* 横型メニュー background negative */
+.plugin-menus .nav-tabs li.nav-item > a {
+    background : transparent;
+    padding: 5px 0 0 0;
+    display: block;
+    height: 100%;
+}
+.plugin-menus .nav-tabs .nav-link.active {
+    height: 100%;
+}
+.plugin-menus .nav-tabs li.nav-item > a.active ,
+.plugin-menus .nav-tabs li.nav-item > a:hover {
+    background-color: #f5f8fa50;
+}
+
+/* 横型メニュー background-image */
+.plugin-menus .nav-tabs {
+        background-image : url(../../../images/core/theme/menu/horizon/clear/gray.gif);
+        background-repeat : repeat-x;
+        background-position : top left;
+        border-top : solid #808080 5px;
+        background-color : transparent;
+        height : 43px;
+}
+/* 横型メニュー clear */
+.plugin-menus .nav-tabs li.nav-item {
+    border-top : 0;
+    border-bottom : 0;
+    height : 38px;
+}
+.plugin-menus .nav-tabs li.nav-item:first-child {
+    border-left : 0;
+}
+.plugin-menus .nav-tabs li.nav-item:last-child {
+    border-right : 0;
+}
+/* ページ上部へ戻るボタン page-top */
+#page-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    font-size: 80%;
+    z-index: 9999;
+}
+#page-top a {
+    display: block;
+    background: #808080;
+    color: #fff;
+    width: 100px;
+    padding: 5px 0;
+    text-align: center;
+    text-decoration: none;
+    font-size:3rem;
+    opacity:1;
+} 
+#page-top a:hover {
+    background: #808080;
+    text-decoration: none;
+    opacity:0.8;
+}
+
+
+/* 縦型（サイド）メニュー menu_vertical */
+/* 縦型（サイド）メニュー color */
+.plugin-menus .list-group > a.list-group-item {
+    color : #808080;
+}
+/* 縦型（サイド）メニュー background */
+.plugin-menus .list-group > a.list-group-item {
+    color : #808080;
+    background : #ffffff;
+}
+.plugin-menus .list-group > a.list-group-item.active,
+.plugin-menus .list-group > a.list-group-item:hover {
+    background-color : #55555550;
+    z-index : 0;
+    border-color : transparent;
+    text-decoration: none;
+}
+/* 縦型（サイド）メニュー border */
+.plugin-menus .list-group > a.list-group-item {
+    border : none;
+    border-radius : unset;
+}
+
+
+/* フレームタイトル frame_tittle */
+/************/
+/* サイト全体設定(メインエリアのみ) site all anchor */
+#ccMainArea a:hover {
+    color: #80808080;
+    text-decoration: underline;
+}
+#ccMainArea a {
+    color: #808080;
+    text-decoration: underline;
+}
+#ccMainArea a.btn-secondary,
+#ccMainArea a.btn-secondary:hover,
+#ccMainArea a.btn-success,
+#ccMainArea a.btn-success:hover {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+/************/
+
+/* フレームタイトル color */
+.card-header.bg-default {
+    color : #808080;
+}
+/* フレームタイトル background */
+.card-header.bg-default {
+    background : #808080;
+}
+/* フレームタイトル border */
+.card-header.bg-default {
+    border-color : #808080;
+    border-bottom-style : solid;
+    border-bottom-width : 2px;
+}
+/* フレームタイトル background-image */
+/*******/
+/* ブログの記事タイトルの大きさ調整*/
+header h2 {
+    font-size: 1.3rem;
+}
+/*******/
+.card-header.bg-default {
+    font-size: 1.1rem;
+    padding-bottom: 10px;    background-image : url(../../../images/core/theme/frame/rectangle/gray.gif);
+    background-size : contain;
+    background-position : left center;
+    border-radius : unset;
+    border-left : solid #808080 15px;
+    background-color : unset;
+}.card {
+    border : unset;
+}
